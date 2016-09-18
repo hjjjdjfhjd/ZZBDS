@@ -62,7 +62,7 @@
 //    
 //    
     //检测中文
-    NSString *tew=@"里两方面的可能看见的时候发的顺丰的还是分工会很好的发挥了加厚发呵呵的回复还是对合格合格呵呵";
+    NSString *tew=@"还够不够好好好干活";
     NSString *regw=@"^[\u4e00-\u9fa5]{0,}$";
     NSPredicate *prw=[NSPredicate predicateWithFormat:@"SELF MATCHES %@",regw];
     //判断
